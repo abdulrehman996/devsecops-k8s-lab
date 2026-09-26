@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: web-app-config
+  namespace: demo-app
+
+data:
+  ENVIRONMENT: "development"
+  LOG_LEVEL: "info"
